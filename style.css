@@ -5,7 +5,7 @@ body {
     color: rgba(255, 255, 255, 0.884);
     text-shadow: 7px 7px 12px black;
     font-family: 'Didact Gothic', sans-serif;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 header {
@@ -17,8 +17,8 @@ header {
     justify-items: stretch;
     max-width: 700px;
     margin: 10px auto;
-    left: 0px;
-    right: 0px;
+    left: 10px;
+    right: 10px;
     padding: 5px;
     border-radius: 5px;
     position: fixed;
@@ -30,7 +30,7 @@ header {
     max-width: 40px;
     height: 100%;
     width: 100%;
-    margin: 10px;
+    margin: 1px;
     filter: invert(1);
     justify-self: right;
     box-shadow: unset;
@@ -38,6 +38,7 @@ header {
 
 h2 {
     flex-grow: 2;
+    margin: 0px 0px 0px 10px;
 }
 
 nav {
@@ -51,6 +52,9 @@ nav {
     iframe {
         max-width: 300px;
     }
+    body {
+        margin-top: 140px;
+    }
 }
 
 @media (min-width: 600px) {
@@ -60,6 +64,10 @@ nav {
     iframe {
         max-width: 600px;
     }
+    body {
+        margin-top: 70px;
+    }
+
 }
 
 a {

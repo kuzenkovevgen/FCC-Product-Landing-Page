@@ -23,6 +23,7 @@ header {
     border-radius: 5px;
     position: fixed;
     top: 0em;
+    z-index: 999;
 }
 
 #header-img {
